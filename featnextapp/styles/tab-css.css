@@ -1,0 +1,59 @@
+.coebenefits {
+    margin-bottom: 70px;
+}
+ul.tablist li a {
+    display: block;
+    font-size: 17px;
+    color: var(--gray-dark);
+    padding: 10px 20px;
+    text-decoration: none;
+}
+ul.tablist li {
+    list-style: none;
+}
+.tab-items{background-color: var(--white);border-radius: 10px;overflow: hidden;}
+.tab-text{
+    padding: 20px;
+}
+ul.tablist{
+    padding: 15px;
+    margin: 0;
+    background: #fff;
+    border-radius: 10px;
+}
+.img100{width: 100%;}
+.tab-text .para{font-size: 15px;}
+.tab-text .para:last-child{
+    margin-bottom: 0;
+}
+ul.tablist li a:hover, ul.tablist li.active a {
+    color: var(--white);
+    background: #ff825c;
+   
+}
+.ind-text-section.coe .card-box-full {height: 260px;}
+.react-tabs__tab{display: block !important;border: none !important;}
+.react-tabs__tab:focus:after{
+    content: "";
+    position: relative;
+    height: 5px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent !important;
+}
+
+.react-tabs__tab:focus {
+    box-shadow: 0 0 5px hsl(14deg 100% 68%)!important;
+    border-color: hsl(14deg 100% 68%)!important;
+    outline: none!important;
+}
+.react-tabs__tab--selected {
+    background: #ff825c !important;
+    border-radius: 5px !important;
+    color: #fff  !important;
+}
+
+@media(max-width:767px){
+    .ind-text-section.coe .card-box-full {height: auto;} 
+}

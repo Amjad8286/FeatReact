@@ -1,0 +1,24 @@
+.main_grid {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px 0px rgb(0 0 0 / 4%);
+  -moz-box-shadow: 2px 2px 5px 0px rgb(0 0 0 / 4%);
+  margin-bottom: 20px;
+}
+.main_grid img {
+  margin-bottom: 20px;
+}
+.main_grid div span {
+  font-size: 14px;
+  line-height: normal;
+}
+.main_grid div .h2 {
+  color: var(--gray);
+}
+.InfiniteCarouselSlide .qt_mark {
+  width: auto !important;
+}
+.tech-part-sections {
+  margin-bottom: 30px;
+}

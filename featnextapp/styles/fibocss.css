@@ -1,0 +1,112 @@
+
+/* .iris-video {
+    cursor: pointer;
+    position: relative;
+    line-height: 1px;
+} */
+.responsive-v {
+    width: 100%;
+    height: 598px;
+}
+.ldcss {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    width: 142px;
+    height: 30px;
+    display: none;
+}
+.ldcss {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    width: 142px;
+    height: 30px;
+    display: none;
+}
+.ldcss span {
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.cls-icon {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    color: red;
+    cursor: pointer;
+    font-size: 28px;
+    text-align: center;
+    transition: .3s all;
+    opacity: .8;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    line-height: 51px;
+    display: none;
+    left: 0;
+    margin: auto;
+    background: #fff;
+    border-radius: 100%;
+    box-shadow: 2px 4px 8px 0 #000;
+    -moz-box-shadow: 2px 4px 8px 0 #000;
+}
+.full-box-view .card-box .para {
+    margin: 0;
+    padding: 0 20px;
+}
+.full-box-view .card-box {
+    padding: 0;
+    overflow: hidden;
+}
+.started-section .para .h2, .offer-section .para .h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.started-section .card-box-full{
+    height: 320px;
+}
+.offer-section .card-box-full {
+    height: 340px;
+}
+
+.how-secure-section .card-box .para{height: auto;}
+.how-secure-section .card-box .para {
+    height: 290px;
+    overflow: auto;
+    display: block;
+    font-size: 14px;
+}
+
+.key-feature.started-section .card-box .para{
+    height: 180px;
+}
+.faq-section .card-box-full {
+    height: auto;
+    padding: 20px;
+}
+.faq-section .card-box-full .para {
+    padding: 0;
+}
+
+.InfiniteCarouselSlide .card-box img {
+    width: 100% !important;
+}
+
+.fibo .InfiniteCarouselSlide .card-box img {
+    max-width: 100% !important;
+  width: inherit !important;
+}
+
+@media(max-width:767px){
+    .how-secure-section .card-box .para{height: auto;}
+    .how-secure-section .card-box{margin-bottom: 20px;}
+}

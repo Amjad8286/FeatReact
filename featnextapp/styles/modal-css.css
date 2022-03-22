@@ -1,0 +1,108 @@
+.data-modal {
+  display: none;
+}
+.data-modal.active {
+  display: block;
+}
+.modal-section {
+  position: fixed;
+  top: 0;
+  background: rgb(0 0 0 / 50%);
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  z-index: 1000;
+  display: flex;
+  overflow: auto;
+  align-items: center;
+  padding: 20px 0;
+}
+.modal-box {
+  margin: auto;
+  overflow: auto;
+  padding: 20px;
+  width: 950px;
+}
+.md-full-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.modal-body {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 500px;
+  margin: auto;
+  position: relative;
+}
+.close-md img {
+  width: 26px;
+}
+a.close-md {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.close-md {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.video-modal .modal-body {
+  padding: 0;
+  width: 100%;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.video-modal .close-md {
+  top: -10px;
+  right: -10px;
+  background: #fff;
+  border-radius: 100%;
+  line-height: 0;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.closeModal {
+  display: none;
+}
+
+.video-modal .close-md:hover img {
+  opacity: 0.5;
+}
+
+.video-modal .overflow-hidden {
+  line-height: 0;
+}
+
+.item .card-box img {
+  margin-bottom: 0;
+}
+.lib-txt h2 {
+  font-size: 16px;
+  margin: 0;
+  height: 40px;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+
+.lib-txt {
+  padding: 20px;
+  white-space: normal;
+}
+.case-studies.libray {
+  padding-bottom: 50px;
+}
+@media (max-width: 767px) {
+  .modal-body {
+    width: 100%;
+  }
+}

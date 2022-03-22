@@ -1,0 +1,97 @@
+.sticky-box {
+    position: sticky;
+    top: 20px;
+    transition: .5s all;
+}
+
+.f-head h2 {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff825c;
+    line-height: 25px;
+    margin-bottom: 3px;
+}
+.f-head p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+.input-form {
+    margin-bottom: 15px;
+}
+.errortxt {
+    color: red;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.tech-section{padding: 70px 0;}
+.para, .cl-text ul li{font-size: 16px;line-height: normal;}
+.tech-box img{margin: 20px 0;}
+.h2, .text2, .bassHead, .heading, .ai-ttle{font-weight: 600;font-size: 25px;}
+.cl-text{margin-bottom: 20px;}
+.cl-text ul + p{margin-top: 20px;}
+
+.process-box {
+    width: 20%;
+    padding: 0 10px;
+    border-right: solid 1px rgba(255,130,92,.3);
+}
+.topics {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.topics-img {
+    float: none;
+    width: 100%;
+}
+.topics img {
+    max-width: 100%;
+}
+.topics ul {
+    list-style: none;
+    -webkit-padding-start: 5px;
+    float: left;
+    width: 100%;
+    -moz-padding-start: 5px;
+}
+.chat-bx{display: flex;width: 100%;margin: 20px 0;}
+.tech-bg p.bassTxt {
+    height: 173px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+}
+.tech-part-section{padding: 70px 0;}
+.tech-bg{
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 0px rgb(0 0 0 / 4%);
+    -moz-box-shadow: 2px 2px 5px 0px rgb(0 0 0 / 4%);
+}
+.moreText{margin-bottom: 20px;}
+.mtb-20{margin: 20px 0;}
+
+.case-img .InfiniteCarouselSlide .card-box img {
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+.case-img .InfiniteCarouselSlide .card-box .para{height: 60px;}
+
+@media(max-width:767px){
+    .tech-part-section{padding: 30px 0;}
+    .tech-bg.card-box{margin-bottom: 20px;}
+    .chat-bx{display: block;}
+    .process-box{width: 100%;}
+    .process-box{
+        border-right: none;
+        
+    }
+
+}
+

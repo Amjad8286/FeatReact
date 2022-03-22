@@ -1,0 +1,91 @@
+.bldg-search-sec {
+    margin-bottom: 20px;
+}
+.bldg-search-sec h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.posts-list {
+    display: flex;
+    margin-bottom: 20px;
+}
+.pst-img {
+    width: 160px;
+    margin-right: 20px;
+}
+.pst-img a {
+    display: block;
+    line-height: 1px;
+}
+.pst-img img {
+    max-width: 100%;
+    object-fit: cover;
+    height: 70px;
+    object-position: center;
+}
+.pstsDtls {
+    width: 100%;
+}
+.ddcss {
+    color: #bcbcbc;
+}
+.bldgttl {
+    color: #5f5f5f;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 20px;
+    display: block;
+    margin-top: 5px;
+}
+.bldg-search-sec h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.cardcss h2 {
+    font-size: 18px;
+}
+a.postCard {
+    text-decoration: none;
+    color: unset;
+    display: block;
+    margin-bottom: 20px;
+}
+.bldg-img {
+    line-height: 1px;
+}
+.bldg-img img {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    object-position: center;
+}
+.pst-dtls {
+    background-color: #fafafa;
+    padding: 20px 20px 25px;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.postCard:hover .pst-dtls {
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgb(2 3 3 / 10%);
+}
+.pst-ttl {
+    color: #434343;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 28px;
+    margin: 4px 0 18px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 56px;
+}
+.pst-dt {
+    color: #8f8f8f;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: .2px;
+    position: relative;
+}

@@ -1,0 +1,7 @@
+.card-box-full{margin-bottom: 20px;}
+.para img{width: 60px;margin-bottom: 50px;}
+.adv-sec .card-box-full{height: 220px;}
+.lc-serv .card-box-full{height: 390px;}
+@media(max-width:767px){
+    .adv-sec .card-box-full, .lc-serv .card-box-full{height: auto;}
+}
